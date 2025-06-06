@@ -1,0 +1,35 @@
+/* [project]/app/preloader.css [app-client] (css) */
+.preloader-overlay {
+  z-index: 9999;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.counter {
+  color: #000;
+  font-family: Akatib, Space Mono, monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  animation: .5s ease-in-out fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=app_preloader_css_f9ee138c._.single.css.map*/

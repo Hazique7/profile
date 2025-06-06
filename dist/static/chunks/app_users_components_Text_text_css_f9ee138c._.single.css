@@ -1,0 +1,72 @@
+/* [project]/app/users/components/Text/text.css [app-client] (css) */
+.text-container {
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 600px;
+  height: 60vh;
+  margin-left: 5%;
+  padding: 0 20px;
+  font-family: Akatib, Space Mono, monospace;
+  display: flex;
+}
+
+h1 {
+  color: #000;
+  background-color: #0000;
+  border-radius: clamp(.4rem, .75vw, 1rem);
+  margin: 10px 0;
+  padding: 0 clamp(1rem, 2vw, 3rem);
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+.scramble:hover {
+  color: #000;
+  background-color: #0000;
+}
+
+.inverted {
+  color: #fff;
+  background-color: #000;
+}
+
+.line {
+  text-transform: uppercase;
+  color: #000;
+  background-color: #0000;
+  border-radius: clamp(.4rem, .75vw, 1rem);
+  margin-top: -5%;
+  margin-left: 1%;
+  padding: 0 clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1rem, 10vw, 1rem);
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+.ahmed {
+  color: #fff;
+  background-color: #0000;
+  border-radius: clamp(.4rem, .75vw, 1rem);
+  margin-left: 4%;
+  padding: 0 clamp(1rem, 2vw, 3rem);
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: bold;
+  transition: background-color .3s, color .3s;
+}
+
+@media (width <= 480px) {
+  .text-container {
+    padding: 0 10px;
+  }
+
+  h1 {
+    text-align: left;
+    padding: 0 1rem;
+  }
+}
+
+/*# sourceMappingURL=app_users_components_Text_text_css_f9ee138c._.single.css.map*/

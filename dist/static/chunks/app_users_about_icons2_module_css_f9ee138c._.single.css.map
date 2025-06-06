@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/users/about/icons2.module.css"],"sourcesContent":[".wrapper-icon {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  gap: 20px;\r\n  overflow: hidden;\r\n  margin-top: 90px;\r\n  padding: 0 10px; /* prevent items touching screen edges */\r\n}\r\n\r\n.aa {\r\n  overflow: hidden;\r\n  padding: 40px 10px; /* add side padding for consistency */\r\n}\r\n\r\n@media (max-width: 480px) {\r\n  .wrapper-icon {\r\n    gap: 6px;\r\n    margin-top: 40px;\r\n      width: 100%;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  gap: 20px;\r\n  overflow: hidden;\r\n  margin-top: 90px;\r\n  padding: 0 10px;\r\n  }\r\n\r\n  .aa {\r\n    padding: 4px;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA;;;;;AAKA;EACE;;;;;;;;;;;EAaA"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/users/components/icons/icon.css"],"sourcesContent":["/* Container for social icons */\r\n.social-media-bar {\r\n  display: flex;\r\n  flex-wrap: wrap;              /* Wrap icons on smaller screens */\r\n  gap: 20px;                    /* Space between icons */\r\n  justify-content: center;     /* Center horizontally */\r\n  align-items: center;\r\n  padding: 10px;\r\n  width: 100%;\r\n  max-width: 320px;\r\n  margin: 0 auto;               /* Center container */\r\n}\r\n\r\n/* Styling for individual social icons */\r\n.social-icon {\r\n  width: 32px;\r\n  height: 32px;\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n/* Hover effect for social icons */\r\n.social-icon:hover {\r\n  transform: scale(1.1);\r\n}\r\n\r\n/* Optional: Mobile-specific tweaks */\r\n@media (max-width: 768px) {\r\n  .social-media-bar {\r\n    gap: 16px;\r\n    max-width: 280px;\r\n  }\r\n\r\n  .social-icon {\r\n    width: 28px;\r\n    height: 28px;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;;;;;AAaA;;;;;;AAOA;;;;AAKA;EACE;;;;;EAKA"}}]
+}

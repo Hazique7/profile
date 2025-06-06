@@ -1,0 +1,36 @@
+/* [project]/app/users/components/icons/icon.css [app-client] (css) */
+.social-media-bar {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform .3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (width <= 768px) {
+  .social-media-bar {
+    gap: 16px;
+    max-width: 280px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/*# sourceMappingURL=app_users_components_icons_icon_css_f9ee138c._.single.css.map*/

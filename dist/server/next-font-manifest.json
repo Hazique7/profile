@@ -1,1 +1,43 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/app/page": [
+      "static/media/VuJzdNrK3Z7gqJE3rKXtO6ljSxlVvw-s.p.a75f4110.woff2",
+      "static/media/VuJzdNrK3Z7gqJE33KHtO6ljSxlVvw-s.p.8a1adbed.woff2",
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3_KDtO6ljSxlVvw-s.p.4667d87e.woff2",
+      "static/media/VuJzdNrK3Z7gqJE35KPtO6ljSxlVvw-s.p.46082903.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3gKLtO6ljSxlVvw-s.p.060e092d.woff2",
+      "static/media/VuJwdNrK3Z7gqJE_X4b4FotuYQ-s.p.462cba9d.woff2"
+    ],
+    "[project]/app/users/about/page": [
+      "static/media/VuJzdNrK3Z7gqJE3rKXtO6ljSxlVvw-s.p.a75f4110.woff2",
+      "static/media/VuJzdNrK3Z7gqJE33KHtO6ljSxlVvw-s.p.8a1adbed.woff2",
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3_KDtO6ljSxlVvw-s.p.4667d87e.woff2",
+      "static/media/VuJzdNrK3Z7gqJE35KPtO6ljSxlVvw-s.p.46082903.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3gKLtO6ljSxlVvw-s.p.060e092d.woff2",
+      "static/media/VuJwdNrK3Z7gqJE_X4b4FotuYQ-s.p.462cba9d.woff2"
+    ],
+    "[project]/app/users/contact/page": [
+      "static/media/VuJzdNrK3Z7gqJE3rKXtO6ljSxlVvw-s.p.a75f4110.woff2",
+      "static/media/VuJzdNrK3Z7gqJE33KHtO6ljSxlVvw-s.p.8a1adbed.woff2",
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3_KDtO6ljSxlVvw-s.p.4667d87e.woff2",
+      "static/media/VuJzdNrK3Z7gqJE35KPtO6ljSxlVvw-s.p.46082903.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3gKLtO6ljSxlVvw-s.p.060e092d.woff2",
+      "static/media/VuJwdNrK3Z7gqJE_X4b4FotuYQ-s.p.462cba9d.woff2"
+    ],
+    "[project]/app/users/projects/page": [
+      "static/media/VuJzdNrK3Z7gqJE3rKXtO6ljSxlVvw-s.p.a75f4110.woff2",
+      "static/media/VuJzdNrK3Z7gqJE33KHtO6ljSxlVvw-s.p.8a1adbed.woff2",
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3_KDtO6ljSxlVvw-s.p.4667d87e.woff2",
+      "static/media/VuJzdNrK3Z7gqJE35KPtO6ljSxlVvw-s.p.46082903.woff2",
+      "static/media/VuJzdNrK3Z7gqJE3gKLtO6ljSxlVvw-s.p.060e092d.woff2",
+      "static/media/VuJwdNrK3Z7gqJE_X4b4FotuYQ-s.p.462cba9d.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

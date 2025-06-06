@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/users/components/buttons/buttons.css"],"sourcesContent":[".button {\r\n  text-transform: uppercase;\r\n  font-family: 'Akatib', 'Space Mono', monospace;\r\n  margin-left: 130px;\r\n  display: flex;\r\n  margin-top: -400px;\r\n  transition: transform 0.3s ease-in-out;\r\n  will-change: transform;\r\n  /* Add some shadow for depth */\r\n  /* box-shadow: 0 5px 10px rgba(0, 3, 0, 0.829); */\r\n    padding: 14px 28px;\r\n    font-size: 3rem ;\r\n    width: 15%;\r\n}\r\n\r\n.button:hover {\r\n  animation: levitate 1.5s ease-in-out infinite;\r\n  cursor: pointer;\r\n}\r\n@media (max-width: 768px) {\r\n  .button{\r\n    margin-top: -20%;\r\n    margin-left: 40px;\r\n     padding: 10px 18px;\r\n    font-size: 2rem ;\r\n    width: auto ;\r\n    max-width: 50%;\r\n\r\n  }\r\n}\r\n\r\n\r\n\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAeA;;;;;AAIA;EACE"}}]
+}

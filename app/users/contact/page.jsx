@@ -2,8 +2,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import styles from './page2.module.css';
-import Icon from '../components/icons/icon';
-
+import Icon from '../components/icons/page';
+export const dynamic = 'force-static';
 
 
 

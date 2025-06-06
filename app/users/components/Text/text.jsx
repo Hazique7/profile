@@ -3,13 +3,16 @@
 import React, { useEffect, useRef } from "react";
 import "./text.css";
 
-const Text = () => {
+const Text1 = () => {
   const activeIntervals = useRef(new Map());
 
   useEffect(() => {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const headers = document.querySelectorAll(".scramble");
-    const headersArray = Array.from(headers); // cache locally for cleanup
+    const headersArray = Array.from(headers); // cache headers locally
+
+    // Cache the current activeIntervals Map so it won't change inside cleanup
+    const intervalsMap = activeIntervals.current;
 
     headersArray.forEach((header) => {
       const originalText = header.dataset.value;
@@ -17,9 +20,9 @@ const Text = () => {
       const startScramble = () => {
         let iteration = 0;
 
-        if (activeIntervals.current.has(header)) {
-          clearInterval(activeIntervals.current.get(header));
-          activeIntervals.current.delete(header);
+        if (intervalsMap.has(header)) {
+          clearInterval(intervalsMap.get(header));
+          intervalsMap.delete(header);
         }
 
         const intervalId = setInterval(() => {
@@ -39,13 +42,13 @@ const Text = () => {
           if (iteration >= originalText.length) {
             clearInterval(intervalId);
             header.innerText = originalText;
-            activeIntervals.current.delete(header);
+            intervalsMap.delete(header);
 
             setTimeout(startScramble, 2000);
           }
         }, 30);
 
-        activeIntervals.current.set(header, intervalId);
+        intervalsMap.set(header, intervalId);
       };
 
       setTimeout(startScramble, 1000);
@@ -53,9 +56,9 @@ const Text = () => {
 
     return () => {
       headersArray.forEach((header) => {
-        if (activeIntervals.current.has(header)) {
-          clearInterval(activeIntervals.current.get(header));
-          activeIntervals.current.delete(header);
+        if (intervalsMap.has(header)) {
+          clearInterval(intervalsMap.get(header));
+          intervalsMap.delete(header);
         }
       });
     };
@@ -81,5 +84,4 @@ const Text = () => {
   );
 };
 
-export default Text;
-
+export default Text1;

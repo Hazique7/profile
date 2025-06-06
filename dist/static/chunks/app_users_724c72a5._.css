@@ -1,0 +1,217 @@
+/* [project]/app/users/components/Navbar/nav.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Akatib, Space Mono, monospace;
+  overflow-x: hidden;
+}
+
+.nav {
+  z-index: 999;
+  background-color: #000;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.left {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.time {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.burger {
+  color: #fff;
+  cursor: pointer;
+  z-index: 1001;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.navMenu {
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  background-color: #000;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  padding: 40px 20px;
+  transition: transform .3s ease-in-out;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+}
+
+.navMenu.show {
+  opacity: 1;
+  pointer-events: auto;
+  text-transform: uppercase;
+  margin-top: 10%;
+  transform: translateY(0);
+}
+
+.navLink {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #ffffff1a;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+}
+
+.dot {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .nav {
+    z-index: 999;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .navMenu {
+    opacity: 1;
+    pointer-events: auto;
+    background-color: #0000;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: auto;
+    height: auto;
+    max-height: none;
+    margin-left: auto;
+    padding: 0;
+    position: static;
+    overflow: visible;
+    transform: none;
+    display: flex !important;
+  }
+
+  .navLink {
+    color: #fff;
+    border-bottom: none;
+    width: auto;
+    padding: 0;
+  }
+
+  .dot {
+    color: #fff;
+    display: inline;
+  }
+}
+
+
+/* [project]/app/users/contact/page2.module.css [app-client] (css) */
+.page2-module__RNw9qG__txt {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 300px;
+  font-family: Akatib, Space Mono, monospace;
+  font-size: 6rem;
+}
+
+.page2-module__RNw9qG__iconContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.page2-module__RNw9qG__customIcon {
+  filter: grayscale();
+  width: 32px;
+  height: 32px;
+  transition: transform .3s;
+}
+
+.page2-module__RNw9qG__customIcon:hover {
+  transform: scale(1.1);
+}
+
+@media (width <= 768px) {
+  .page2-module__RNw9qG__txt {
+    margin-top: 50%;
+    font-size: 4rem;
+  }
+
+  .page2-module__RNw9qG__iconContainer {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .page2-module__RNw9qG__customIcon {
+    width: 78%;
+    height: 28px;
+  }
+}
+
+
+/* [project]/app/users/components/icons/icon.css [app-client] (css) */
+.social-media-bar {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform .3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (width <= 768px) {
+  .social-media-bar {
+    gap: 16px;
+    max-width: 280px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+
+/*# sourceMappingURL=app_users_724c72a5._.css.map*/

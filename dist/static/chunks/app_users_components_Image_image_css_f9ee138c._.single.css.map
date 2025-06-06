@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/users/components/Image/image.css"],"sourcesContent":[".image-wrapper {\r\n       margin-left: 57%;\r\n    height: 400px;\r\n    width: 600px;\r\n    margin-top: -160px;\r\n  display: flex;\r\n  /* justify-content: flex-end;  */\r\n  align-items: center;\r\n  padding: 20px;\r\n  \r\n}\r\n\r\n.custom-image {\r\n  border-radius: 2%;\r\n      margin-top: -550px;\r\n  margin-left: 20% ;\r\n  border-radius: 8px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n.image-wrapper{\r\n  display: none;\r\n\r\n  }}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAYA;;;;;;;;AASA;EACA"}}]
+}

@@ -1,0 +1,9 @@
+/* [project]/app/page.css [app-client] (css) */
+.main {
+  flex-direction: column;
+  gap: 60px;
+  display: flex;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=app_page_css_f9ee138c._.single.css.map*/

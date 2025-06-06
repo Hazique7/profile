@@ -1,0 +1,31 @@
+/* [project]/app/users/components/buttons/buttons.css [app-client] (css) */
+.button {
+  text-transform: uppercase;
+  will-change: transform;
+  width: 15%;
+  margin-top: -400px;
+  margin-left: 130px;
+  padding: 14px 28px;
+  font-family: Akatib, Space Mono, monospace;
+  font-size: 3rem;
+  transition: transform .3s ease-in-out;
+  display: flex;
+}
+
+.button:hover {
+  cursor: pointer;
+  animation: 1.5s ease-in-out infinite levitate;
+}
+
+@media (width <= 768px) {
+  .button {
+    width: auto;
+    max-width: 50%;
+    margin-top: -20%;
+    margin-left: 40px;
+    padding: 10px 18px;
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=app_users_components_buttons_buttons_css_f9ee138c._.single.css.map*/

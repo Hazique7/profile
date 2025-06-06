@@ -1,0 +1,48 @@
+/* [project]/app/users/contact/page2.module.css [app-client] (css) */
+.page2-module__RNw9qG__txt {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 300px;
+  font-family: Akatib, Space Mono, monospace;
+  font-size: 6rem;
+}
+
+.page2-module__RNw9qG__iconContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.page2-module__RNw9qG__customIcon {
+  filter: grayscale();
+  width: 32px;
+  height: 32px;
+  transition: transform .3s;
+}
+
+.page2-module__RNw9qG__customIcon:hover {
+  transform: scale(1.1);
+}
+
+@media (width <= 768px) {
+  .page2-module__RNw9qG__txt {
+    margin-top: 50%;
+    font-size: 4rem;
+  }
+
+  .page2-module__RNw9qG__iconContainer {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .page2-module__RNw9qG__customIcon {
+    width: 78%;
+    height: 28px;
+  }
+}
+
+/*# sourceMappingURL=app_users_contact_page2_module_css_f9ee138c._.single.css.map*/
