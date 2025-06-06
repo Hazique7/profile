@@ -1,0 +1,48 @@
+.txt {
+  color: black;
+  background-color: white;
+  font-family: 'Akatib', 'Space Mono', monospace;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-top: 300px;
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.customIcon {
+  filter: grayscale(100%);
+  transition: transform 0.3s ease;
+  width: 32px;
+  height: 32px;
+}
+
+/* Hover effect */
+.customIcon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .txt {
+    margin-top: 50%;
+    font-size: 4rem;
+  }
+
+  .iconContainer {
+    display: flex;
+    flex-direction: row;
+    /* gap: 6px; */
+    /* padding: 24px; */
+  }
+
+  .customIcon {
+    width: 78%;
+    height: 28px;
+  }
+}

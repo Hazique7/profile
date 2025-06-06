@@ -1,0 +1,37 @@
+/* Container for social icons */
+.social-media-bar {
+  display: flex;
+  flex-wrap: wrap;              /* Wrap icons on smaller screens */
+  gap: 20px;                    /* Space between icons */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;               /* Center container */
+}
+
+/* Styling for individual social icons */
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for social icons */
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Optional: Mobile-specific tweaks */
+@media (max-width: 768px) {
+  .social-media-bar {
+    gap: 16px;
+    max-width: 280px;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+}

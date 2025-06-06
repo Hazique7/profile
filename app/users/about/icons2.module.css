@@ -1,0 +1,34 @@
+.wrapper-icon {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 90px;
+  padding: 0 10px; /* prevent items touching screen edges */
+}
+
+.aa {
+  overflow: hidden;
+  padding: 40px 10px; /* add side padding for consistency */
+}
+
+@media (max-width: 480px) {
+  .wrapper-icon {
+    gap: 6px;
+    margin-top: 40px;
+      width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  margin-top: 90px;
+  padding: 0 10px;
+  }
+
+  .aa {
+    padding: 4px;
+  }
+}

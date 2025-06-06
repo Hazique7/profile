@@ -1,0 +1,140 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Akatib', 'Space Mono', monospace;
+}
+
+/* Navigation Container */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+/* Top section: time and burger */
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Time display */
+.time {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Burger icon */
+.burger {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  display: block;
+  z-index: 1001; /* So it stays above navMenu */
+}
+
+/* Navigation menu (mobile, hidden by default) */
+.navMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 20px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+}
+
+/* Show nav when toggled */
+.navMenu.show {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+/* Navigation links */
+.navLink {
+  
+  display: flex;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Decorative dot (optional) */
+.dot {
+  display: none;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .navMenu {
+    position: static;
+    height: auto;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    margin-left: auto;
+    max-height: none;
+    overflow: visible;
+    gap: 15px;
+    display: flex !important;
+  }
+
+  .navLink {
+    border-bottom: none;
+    padding: 0;
+    width: auto;
+    color: white;
+  }
+
+  .dot {
+    display: inline;
+    color: white;
+  }
+}

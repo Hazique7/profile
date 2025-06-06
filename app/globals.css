@@ -1,0 +1,69 @@
+/* app/globals.css */
+/* Tailwind CSS directives - MUST be at the top */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Akatab font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&display=swap');
+
+/* Global styles for the body */
+/* Reset + Prevent Horizontal Scroll Globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ensure 'Inter' is available, either via next/font or another @import */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Animations for Preloader */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation for buttons (levitate) */
+@keyframes levitate {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px); /* Adjust the lift height as needed */
+  }
+}
+
+/* Shared styles for h1 - these are general styles applied to all h1 elements
+   If you want more specific control, consider applying Tailwind classes directly
+   to individual h1 elements in your components. */
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Akatab', sans-serif;
+}
+
+/* Shared styles for about-container - if this is a global class */
+.about-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
